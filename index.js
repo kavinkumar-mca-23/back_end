@@ -38,7 +38,7 @@ app.delete('/delete/:id',async(req,res)=>{
 })
 
 
-mongoose.connect("mongodb+srv://mdnabeel:mdnabeel@cluster0.sk5lxbt.mongodb.net/").then(console.log("MongoDB Connected"));
+mongoose.connect("mongodb+srv://kavin1516:kavin1516@cluster0.wjgxtlt.mongodb.net/").then(console.log("MongoDB Connected"));
 var newSchema=new mongoose.Schema({
     id:Number,
     name:String,
